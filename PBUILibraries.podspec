@@ -16,6 +16,6 @@ UI Libraries for Photo Butler. 3rd party includes, frameworks, and libraries.
 
   #s.source_files = 'PBUILibraries/Classes/**/*'
   
-  s.ios.vendored_frameworks = 'PBFrameworkNetworkingLibraries.framework'
+  s.ios.vendored_frameworks = 'PBFrameworkUILibraries.framework'
   
 end
