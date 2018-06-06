@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'PBUILibraries_Example' do
+  pod 'PBUILibraries', :path => '../'
+
+  target 'PBUILibraries_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

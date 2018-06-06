@@ -1,0 +1,6 @@
+framework module PBFrameworkUILibraries {
+  umbrella header "PBFrameworkUILibraries.h"
+
+  export *
+  module * { export * }
+}
