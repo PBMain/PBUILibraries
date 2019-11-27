@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'PBUILibraries'
-  s.version          = '1.0.17.2'
+  s.version          = '1.5.0.0'
   s.summary          = 'UI Libraries for Photo Butler'
 
   s.description      = <<-DESC
