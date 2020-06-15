@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 typedef void (^JPSVolumeButtonBlock)();
 
@@ -21,4 +22,7 @@ typedef void (^JPSVolumeButtonBlock)();
 // Returns a singleton with the specified up/down volume button handlers
 + (instancetype)volumeButtonHandlerWithUpBlock:(JPSVolumeButtonBlock)upBlock downBlock:(JPSVolumeButtonBlock)downBlock;
 
++ (BOOL) isAppExtension;
+
++ (UIApplication *) sharedUIApplication;
 @end
